@@ -1,0 +1,64 @@
+body{
+    background-color: #222930;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5%;
+}
+table {
+
+    font-size: 0.8em;
+    
+    
+}
+table th{
+ background-color: #4EB1BA ;
+ color: #222930;
+}
+
+table tr:nth-of-type(odd){
+    background-color:grey;
+    color: white;
+}
+table tr:nth-of-type(even){
+    background-color: ghostwhite;
+    color: #222930;
+}
+table tr:nth-child(even) a{
+    color: #222930;
+    text-decoration: solid;
+}
+table tr:nth-child(odd) a{
+    color: white;
+    text-decoration: solid;
+}
+
+h4 a{
+    color: whitesmoke;
+    text-decoration: solid;
+}
+
+table tr:nth-child(even) a:hover{
+    color: #4EB1BA;
+    text-decoration: solid;
+}
+table tr:nth-child(odd) a:hover{
+    color: #222930 ;
+    text-decoration: solid;
+}
+h4 a:hover{
+    color: #4EB1BA ;
+    text-decoration: solid;
+}
+
+input{
+    height: 25px;
+    border-style: solid;
+    background-color: #222930;
+    border-color: white;
+    color: white;
+}
+input:hover{
+    background-color: white;
+    color: #222930;
+}

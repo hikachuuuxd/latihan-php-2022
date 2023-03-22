@@ -1,0 +1,55 @@
+body{
+    background-color: #222930;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+table td .tanggal{
+    font-size: 0.4em;
+}
+table{
+    margin: auto;
+    background-color: whitesmoke;
+    color: #222930;
+    padding: 50px;
+    margin-bottom: 5%;
+    font-size: 0.8em;
+    margin-top: 5%;
+}
+table input{
+    border-style: solid;
+    padding: 5px;
+}
+
+table input:hover{
+    background-color: #222930;
+    color: white;
+}
+textarea:hover{
+    background-color: #222930;
+    color: white;
+}
+table td button{
+   background-color: #4EB1BA;
+   border-style: none;
+   width: 50%;
+   color: whitesmoke;
+   height: 70%;
+   border-radius: 30px;
+   
+}
+
+table td button:hover{
+    background-color: #222930;
+}
+
+
+
+.header{
+    font-weight: bold;
+}
+
+
+
+
