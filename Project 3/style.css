@@ -108,12 +108,12 @@ nav .navigation a:hover{
 #portofolio{
     position: relative;
     text-align: center;
-    margin: 3em 0;
+    margin: 4em 0;
    
 }
 
 #portofolio > h4{
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 #portofolio .card-container{
@@ -122,7 +122,7 @@ nav .navigation a:hover{
     flex-wrap: wrap;
 }
 .card{
-    width: 400px;
+    width: 450px;
     margin: 0em 0.8em 0.8em;
     border-radius: 5px;
     overflow: hidden;
@@ -144,7 +144,7 @@ nav .navigation a:hover{
     margin-bottom: 1em;
 }
 #portofolio .card-image img{
-    width: 400px;
+    width: 450px;
     height: 250px;
     object-fit: contain;
 
@@ -156,8 +156,9 @@ nav .navigation a:hover{
     padding: 0.8em;
     border: none;
     background-color: darkslategrey;
-    width: 400px;
+    width: 450px;
     color: white;
+    cursor: pointer;
 }
 
 .card-button button:hover{
