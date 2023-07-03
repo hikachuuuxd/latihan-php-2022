@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    position: relative;
+}
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 3em;
+    box-sizing: border-box;
+    padding: 1em 3em;
+    justify-content: space-between;
+    background-color: darkolivegreen;
+    box-shadow: inset;
+    box-shadow: 0 2px 8px rgba(50, 3, 3, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav h4{
+    letter-spacing: 2px;
+    color: white;
+}
+
+nav .navigation a{
+   text-decoration: none;
+   color:white;
+   font-size: smaller;
+   padding: 0.5em;
+}
+
+nav .navigation a:hover{
+    padding: 0.8em 0.5em;
+    border-bottom: 2px solid whitesmoke;
+    color: whitesmoke
+}
+
+
+#profile{
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3em;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+#profile .tagline{
+    width: 60%;
+    padding: 3em 2.5em;
+    word-spacing: 0.3em;
+    box-sizing: border-box;
+}
+#profile .tagline > h3{
+    text-transform: uppercase;
+    color: gray;
+    font-size: medium;
+    margin-bottom: 0.8em;
+    padding: 1em 0;
+ 
+    
+}
+
+#profile .tagline > p{
+    width: 45em;
+    margin-top: 1em ;
+    font-size: small;
+}
+
+#profile .tagline > a button{
+    margin: 1.5em 0;
+    padding: 1em;
+    border: 1px solid darkolivegreen;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#profile .tagline > a:hover button{
+    color: darkolivegreen;
+    background-color: whitesmoke;
+    border: 1px solid darkolivegreen;
+  
+
+}
+#profile .image{
+   height: 100%;
+}
+#profile .image img{
+    height: fit-content;
+    padding-bottom: 0;
+    margin-top: 4em;
+    margin-bottom: 0;
+    background-size: cover;
+}
+
+#portofolio{
+    position: relative;
+    text-align: center;
+    margin: 5em 0;
+   
+}
+
+#portofolio > h4{
+    margin-bottom: 3em;
+}
+
+#portofolio .card-container{
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    padding: 0 1em 1em;
+    margin: 0 0.8em;
+    
+}
+.card > .card-detail{
+    font-size: small;
+}
+.card > .card-detail >p{
+    text-align: left;
+    margin-top: 1em;
+}
+#portofolio .card-image img{
+    width: auto;
+    height: 250px;
+    object-fit: contain;
+    background-size: cover;
+    margin-bottom: 1em;
+}
+
