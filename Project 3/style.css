@@ -118,27 +118,50 @@ nav .navigation a:hover{
 
 #portofolio .card-container{
     display: flex;
-    margin: 1em;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .card{
-    width: 300px;
-    padding: 0 1em 1em;
-    margin: 0 0.8em;
+    width: 400px;
+    margin: 0em 0.8em 0.8em;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(50, 3, 3, 0.5);
     
 }
 .card > .card-detail{
-    font-size: small;
+    padding: 1em;
 }
 .card > .card-detail >p{
     text-align: left;
     margin-top: 1em;
+    padding: 1em;
+    font-size: smaller;
+}
+
+.card-image{
+    background-color: darkslategrey;
+    margin-bottom: 1em;
 }
 #portofolio .card-image img{
-    width: auto;
+    width: 400px;
     height: 250px;
     object-fit: contain;
-    background-size: cover;
-    margin-bottom: 1em;
+
+    
+}
+
+.card-button button{
+    margin: 1em 0 0;
+    padding: 0.8em;
+    border: none;
+    background-color: darkslategrey;
+    width: 400px;
+    color: white;
+}
+
+.card-button button:hover{
+    background-color: white;
+    color: black;
 }
 
